@@ -1,0 +1,438 @@
+/*
+Theme Name: Hello-Elementor-child
+Author: Hash
+Description: Your description goes here
+Version: 1.0
+Template: hello-elementor
+
+This is the child theme for Hello Elementor theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+
+.left_login_sec {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/wp-content/uploads/2022/03/login_bg.jpg");
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: -15px;
+}
+.login_modal .modal-content .modal-body {
+    padding: 0;
+}
+.inner_action h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.login_modal  .modal-content {
+    border: none;
+    border-radius: 0;
+}
+.inner_action a {
+    display: inline-block;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none !important;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 100px;
+    font-size: 15px;
+    margin-top: 60px;
+}
+.right_login_sec h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 26px;
+}
+.right_login_sec > p {
+    font-size: 20px;
+    color: #000;
+    padding-right: 100px;
+    font-weight: 500;
+}
+.right_login_sec form .form-group input.form-control {
+    border-width: 0 0 2px 0;
+    border-radius: 0;
+    padding: 24px 12px;
+}
+.right_login_sec {
+    padding: 70px 40px 10px 10px;
+}
+.login_submit  button {
+    background: #78BA4C;
+    box-shadow: 0px 4px 4px rgba(150, 200, 117, 0.88);
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    padding: 10px 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+.login_forgot {
+    justify-content: space-between;
+}
+.left_login_sec .inner_action {
+    text-align: center;
+}
+.login_submit {
+    margin: 60px 0 30px;
+}
+.right_login_sec form .form-group input.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.right_login_sec form .form-group {
+    margin-bottom: 30px;
+}
+.feature_image {
+    padding: 15% 0;
+    background-image: url("/wp-content/uploads/2022/03/carl-jorgensen-leyUrzdwurc-unsplash-1-1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+.register_form_wrap {
+    margin-top: 80px;
+}
+.feature_image::after {
+    content: "";
+    width: 100%;
+    border-width: 40vh 100vw 0 0;
+    border-style: solid;
+    border-color: rgb(255 0 0 / 0%) white rgb(0 0 255 / 0%) rgb(0 128 0 / 0%);
+    position: absolute;
+    bottom: 0;
+}
+.feature_caption h2 {
+    font-size: 40px;
+    line-height: normal;
+    margin-bottom: 0;
+    color: #fff;
+}
+.container{
+    max-width: 1300px;
+}
+.register_form_wrap h4 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.register_form_wrap .form-group input.form-control, .register_form_wrap .form-group select.form-control,.register_form_wrap .form-group select {
+    border-radius: 50px;
+    height: 52px;
+    padding: 0 30px;
+    font-size: 15px;
+    border: 2px solid #609AAD;
+}
+select{
+    cursor: pointer;
+}
+.student_info {
+    padding-right: 100px;
+}
+.custom_checkbox {
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.custom_checkbox input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+    border-radius: 0;
+    vertical-align: middle;
+}
+.custom_checkbox label {
+    width: 100%;
+    margin: 0 0 10px;
+}
+.custom_checkbox  span {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.register_form_wrap p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.register_form_wrap .col-md-12 .row {
+    margin: 0;
+}
+.register_form_wrap .form-group {
+    margin-bottom: 30px;
+}
+.additional-info .form-group .custom_checkbox {
+    margin-right: 25px;
+}
+.additional-info .form-group .custom_checkbox input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+.additional-info .form-group .custom_checkbox label {
+    display: flex;
+    align-items: center;
+}
+.additional-info .form-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+.additional-info .form-group select {
+    width: 50%;
+}
+.additional-info label {
+    margin-bottom: 10px;
+}
+.additional-top-info select {
+    width: 50%;
+    margin-top: 16px;
+}
+.additional-top-info, additional-info {
+    margin-bottom: 40px;
+}
+.additional-info .social_checkbox label {
+    margin: 0;
+    font-size: 16px;
+    margin-right: 9px;
+    max-width: unset;
+    font-weight: 400;
+}
+.additional-info .social_checkbox .form-group {
+    align-items: center;
+}
+.additional-top-info, .additional-info {
+    margin-bottom: 40px;
+}
+.additional-box {
+    padding: 20px 15px 0;
+}
+.register_form_wrap .submit_btn {
+    margin: 40px 0 30px;
+}
+.submit_btn button {
+    background-color: #609AAD !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    line-height: normal;
+    display: inline-block !important;
+    padding: 16px 70px !important;
+    font-size: 22px !important;
+    border-radius: 50px !important;
+    font-weight: bold;
+}
+.additional-info label {
+    max-width: 610px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.additional-top-info label {
+    max-width: 600px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 500;
+}
+.additional-info .social_checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+.inner_action a {
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.right_login_sec {
+    padding: 40px 30px 10px 10px;
+}
+.feature_image::after {
+    border-width: 15vh 100vw 0 0;
+}
+.student_info {
+    padding-right: 15px;
+}
+.custom_checkbox  span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.additional-info .social_checkbox input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+.additional-info .social_checkbox .form-group input[type="checkbox"], .additional-info .social_checkbox .form-group label {
+    margin-bottom: 10px;
+}
+.submit_btn button {
+    padding: 12px 50px !important;
+    font-size: 18px !important;
+}
+.register_form_wrap .submit_btn {
+    margin: 10px 0 30px;
+}
+.custom_checkbox input[type="checkbox"] {
+    height: 22px;
+    width: 22px;
+}
+.register_form_wrap .form-group {
+    margin-bottom: 20px;
+}
+.register_form_wrap .form-group input.form-control, .register_form_wrap .form-group select.form-control, .register_form_wrap .form-group select {
+    height: 50px;
+}
+.feature_caption h2 {
+    font-size: 30px;
+}
+.feature_image {
+    height: 51vh;
+}
+.right_login_sec > p {
+    font-size: 16px;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+.inner_action a {
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.inner_action h2 {
+    font-size: 30px;
+}
+.login_modal .modal-dialog {
+    max-width: 680px;
+}
+.right_login_sec form .form-group input.form-control {
+    padding: 20px 10px;
+}
+}
+
+@media only screen and (max-width: 767px){
+.inner_action h2 {
+    font-size: 26px;
+}
+.left_login_sec .inner_action {
+    padding: 20px;
+}
+.feature_image::after{
+    display: none;
+}
+.feature_image {
+    padding: 20% 0;
+    height: auto;
+    margin-bottom: 20px;
+}
+.register_form_wrap {
+    margin-top: 30px;
+}
+.register_form_wrap h4 {
+    font-size: 18px;
+}
+.custom_checkbox input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}
+.parent_info {
+    margin-top: 20px;
+}
+.additional-top-info, .additional-info {
+    margin-bottom: 30px;
+}
+.additional-top-info label {
+    font-size: 13px;
+    line-height: 19px;
+}
+.additional-info label {
+    font-size: 13px;
+    line-height: 20px;
+}
+.custom_checkbox {
+    margin-right: 0;
+}
+.additional-top-info select,.additional-info .form-group select{
+    width: 100%;
+}
+.custom_checkbox  span {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.additional-info .social_checkbox label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.submit_btn button {
+    padding: 12px 50px !important;
+    font-size: 18px !important;
+}
+.register_form_wrap .submit_btn {
+    margin: 10px 0 30px;
+}
+.additional-info .social_checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 7px;
+}
+.register_form_wrap .form-group input.form-control, .register_form_wrap .form-group select.form-control, .register_form_wrap .form-group select {
+    height: 44px;
+}
+.register_form_wrap .form-group {
+    margin-bottom: 15px;
+}
+.student_info {
+    padding-right: 15px;
+}
+.feature_caption h2 {
+    font-size: 20px;
+}
+.inner_action a {
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.login_forgot label {
+    font-size: 14px;
+}
+.d-flex.login_forgot {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.login_submit {
+    margin: 20px 0;
+}
+.right_login_sec {
+    padding: 15px;
+}
+.forgot_link {
+    font-size: 14px;
+    margin-top: 4px;
+}
+.right_login_sec form .form-group input.form-control {
+    padding: 24px 10px;
+    font-size: 14px;
+}
+.right_login_sec form .form-group {
+    margin-bottom: 15px;
+}
+.right_login_sec > p {
+    font-size: 14px;
+    padding-right: 0;
+}
+.right_login_sec h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.left_login_sec {
+    padding: 30px 0;
+    margin-left: 0;
+    justify-content: center;
+}
+}
