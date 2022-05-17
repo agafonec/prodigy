@@ -1,0 +1,154 @@
+a.btn {
+  font-size: 18px;
+  padding: 20px 40px;
+  border: none;
+  color: #fff;
+  transition: 0.35s all;
+}
+a.btn:hover {
+  color: #fff;
+}
+a.btn.btn-sm {
+  font-size: 16px;
+}
+a.btn.btn-green {
+  background-color: #00A79D;
+}
+a.btn.btn-blue {
+  background-color: #004AAD;
+}
+a.btn.btn-purple {
+  background-color: #8C52FF;
+}
+a.btn.btn-dark-green {
+  background-color: #008037;
+}
+a.btn.btn-yellow {
+  background-color: #ECC027;
+}
+a.btn.btn-red {
+  background-color: #FF0000;
+}
+a.btn.btn-light-red {
+  background-color: #FF5757;
+}
+a.btn.btn-left-angle {
+  border-radius: 40px 40px 40px 0px !important;
+}
+a.btn.btn-left-angle:hover {
+  border-radius: 40px 0px 40px 0px !important;
+}
+a.btn.btn-right-angle {
+  border-radius: 40px 40px 0px 40px !important;
+}
+a.btn.btn-right-angle:hover {
+  border-radius: 0px 40px 0px 40px !important;
+}
+a.btn.btn-diagonal-angle-left {
+  border-radius: 40px 0px 40px 0px !important;
+}
+a.btn.btn-diagonal-angle-left:hover {
+  border-radius: 0px 40px 0px 40px !important;
+}
+a.btn.btn-diagonal-angle-right {
+  border-radius: 0px 40px 0px 40px !important;
+}
+a.btn.btn-diagonal-angle-right:hover {
+  border-radius: 40px 0px 40px 0px !important;
+}
+
+.account-head {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.account-head__buttons {
+  display: flex;
+  margin: 0 -15px;
+  margin-top: 40px;
+}
+.account-head__buttons .button-wrap {
+  padding: 0 15px;
+}
+.account-head__left {
+  width: 80%;
+}
+.account-head__right {
+  width: 20%;
+}
+.account-head__avatar img {
+  width: 100%;
+  border-radius: 500px !important;
+  display: block;
+}
+
+.appointment-box {
+  padding: 30px 60px;
+  background: #F7EFE5;
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+.appointment-box__title {
+  font-size: 32px;
+  color: #474949;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.appointment-box__date {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.appointment-box__body {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+.appointment-box__body .col {
+  padding: 0 10px;
+}
+.appointment-box__body .col.column-1 {
+  width: 10%;
+}
+.appointment-box__body .col.column-2 {
+  width: 30%;
+}
+.appointment-box__body .col.column-3 {
+  width: 25%;
+}
+.appointment-box__body .col.column-4 {
+  width: 35%;
+}
+.appointment-box__body .col .btn {
+  margin-bottom: 20px;
+  min-height: calc(50% - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appointment-box__body .col .btn.btn-full-height {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appointment-box__body .col .btn.btn-full-height svg {
+  width: 100%;
+}
+.appointment-box__body .col .btn:last-child {
+  margin-bottom: 0;
+}
+.appointment-box__body .col .button-group {
+  display: flex;
+  margin: 0 -10px;
+}
+.appointment-box__body .col .button-group .btn {
+  margin: 0 10px;
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=custom.css.map */
