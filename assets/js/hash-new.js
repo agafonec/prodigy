@@ -23,8 +23,6 @@ jQuery(document).ready(function () {
         });
 
     });
-
-
 });
 
 
@@ -165,11 +163,14 @@ jQuery(document).ready(function () {
 
     });
 });
-jQuery('.how_work_slider').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
-});
+if (jQuery('.how_work_slider').length > 0) {
+    jQuery('.how_work_slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+}
+
 /**APPLIED FOR TUTION**/
 function students_applied_tution() {
     var courses_id = jQuery(this).attr('data-courses');

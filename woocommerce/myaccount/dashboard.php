@@ -38,8 +38,8 @@ $allowed_html = array(
 	);
 	?>
 </p>
-<h1>Hello Danylo</h1>
-<p>
+<h1>THIS IS AN ACCOUNT PAGE</h1>
+    <p>
 	<?php
 	/* translators: 1: Orders URL 2: Address URL 3: Account URL. */
 	$dashboard_desc = __( 'From your account dashboard you can view your <a href="%1$s">recent orders</a>, manage your <a href="%2$s">billing address</a>, and <a href="%3$s">edit your password and account details</a>.', 'woocommerce' );
